@@ -37,7 +37,7 @@ export default function Landing() {
               Explore Components
             </button>
             <button
-              className="rounded-lg px-4 py-2 bg-muted/50 hover:bg-muted/100 cursor-pointer shadow-lg hover:scale-105 transition-all"
+              className="rounded-lg px-4 py-2 border bg-none hover:bg-muted cursor-pointer shadow-lg hover:scale-105 transition-all"
               onClick={() => {
                 navigate("/about");
               }}
