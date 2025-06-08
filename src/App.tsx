@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Components from "./pages/Components";
 import { ThemeProvider } from "./components/theme-provider";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
           router={createBrowserRouter([
             { path: "/", element: <Landing /> },
             { path: "/components", element: <Components /> },
+            { path: "/about", element: <About /> },
           ])}
         ></RouterProvider>
       </ThemeProvider>
