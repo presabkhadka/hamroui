@@ -1,5 +1,6 @@
 import { Search } from "lucide-react";
 import { NavLink } from "react-router-dom";
+import { ModeToggle } from "./mode-toggle";
 
 export default function Navbar() {
   return (
@@ -41,9 +42,8 @@ export default function Navbar() {
           <Search className="left-1 top-1/3 absolute -translate-y-1/2" />
         </div>
       </div>
-      <div className="flex gap-2">
-        <p>mode</p>
-        <p>logout</p>
+      <div className="flex items-center">
+        <ModeToggle />
       </div>
     </div>
   );
