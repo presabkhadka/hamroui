@@ -8,27 +8,33 @@ export default function Navbar() {
       <h1 className="text-3xl font-bold">
         hamro<span className="text-green-500">ui</span>
       </h1>
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-4 items-center text-xl">
         <NavLink
           to={"/"}
           className={({ isActive }) =>
-            isActive ? "text-green-500" : "text-gray-600"
+            isActive
+              ? "text-green-500 hover:text-green-300"
+              : "text-gray-600 hover:text-gray-400"
           }
         >
           Home
         </NavLink>
         <NavLink
-          to={"/docs"}
+          to={"/about"}
           className={({ isActive }) =>
-            isActive ? "text-green-500" : "text-gray-600"
+            isActive
+              ? "text-green-500 hover:text-green-300"
+              : "text-gray-600 hover:text-gray-400"
           }
         >
-          Docs
+          About
         </NavLink>
         <NavLink
           to={"/components"}
           className={({ isActive }) =>
-            isActive ? "text-green-500" : "text-gray-600"
+            isActive
+              ? "text-green-500 hover:text-green-300"
+              : "text-gray-600 hover:text-gray-400"
           }
         >
           Components
