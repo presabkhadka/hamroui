@@ -11,14 +11,14 @@ export default function Landing() {
         </div>
         <div className="flex flex-col items-center justify-center gap-2 h-full ">
           <div>
-            <h1 className="text-5xl font-bold text-center leading-12">
-              Crafted for React, styled with Tailwind
+            <h1 className="text-4xl md:text-5xl font-bold text-center leading-12">
+              Crafted for React, <br className="md:hidden"/> styled with Tailwind
               <br />
               hamro<span className="text-green-500">ui</span>
             </h1>
           </div>
           <div>
-            <p className="max-w-lg mx-auto md:max-w-4xl text-justify font-thin">
+            <p className="p-4 max-w-lg md:mx-auto md:max-w-4xl text-justify font-thin">
               Hamroui is an open-source React component library designed with
               Tailwind CSS to help developers build beautiful, responsive
               interfaces effortlessly. Hamroui aims to provide a seamless
